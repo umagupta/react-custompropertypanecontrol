@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "1aeb031e-2e5e-4660-8ed2-55199ab10419",
+  "alias": "ListItemsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "1aeb031e-2e5e-4660-8ed2-55199ab10419",
+    "group": { "default": "Under Development" },
+    "title": { "default": "List items" },
+    "description": { "default": "Shows list items from the selected list" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "List items"
+    }
+  }]
+}

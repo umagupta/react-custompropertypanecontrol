@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/listItems/ListItemsWebPart.js",
+      "manifest": "./src/webparts/listItems/ListItemsWebPart.manifest.json",
+      "outputPath": "./dist/list-items.bundle.js"
+    }
+  ],
+  "externals": {"sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js"},
+  "localizedResources": {
+    "listItemsStrings": "webparts/listItems/loc/{locale}.js",
+     "sp-client-custom-fields/strings": "../node_modules/sp-client-custom-fields/lib/loc/{locale}.js"
+  }
+}

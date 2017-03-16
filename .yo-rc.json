@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "react-custompropertypanecontrol",
+    "libraryId": "d0a3a2fa-e328-459c-8127-a3c43e714399",
+    "framework": "react"
+  }
+}
